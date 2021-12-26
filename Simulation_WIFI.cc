@@ -178,7 +178,7 @@ main (int argc, char *argv[])
   clientHelper.SetAttribute("OnTime",StringValue("ns3::ConstantRandomVariable[Constant=1]"));
   clientHelper.SetAttribute("OffTime",StringValue("ns3::ConstantRandomVariable[Constant=0]"));
   clientHelper.SetAttribute("PacketSize",UintegerValue(1024));
-  clientHelper.SetAttribute("DataRate",DataRateValue(DataRate("4Mbps")));
+  clientHelper.SetAttribute("DataRate",DataRateValue(DataRate("3Mbps")));
   ApplicationContainer clientApps1,clientApps1_e,clientApps2,clientApps2_e,clientApps3,clientApps3_e,video_apps;
 
 
